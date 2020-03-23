@@ -51,11 +51,22 @@
         android:textSize="16dp"
         tools:ignore="UnknownId" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Forgotten password?"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="100dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/textView5"
         android:layout_marginTop="30dp"
         android:textSize="16dp"
         android:background="@android:color/white"
