@@ -41,8 +41,9 @@
             android:orientation="vertical">
 
             <ListView
+                android:id="@+id/lista_todo"
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
+                android:layout_height="match_parent" />
         </LinearLayout>
 
         <LinearLayout
@@ -51,7 +52,7 @@
             android:orientation="horizontal">
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/floatingActionButton"
+                android:id="@+id/newTask"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
