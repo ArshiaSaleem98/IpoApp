@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     FloatingActionButton newTask;
+    Button calendario, cambiar_fuente, ajustes, cerrar_sesion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,13 +60,13 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
         newTask =(FloatingActionButton) findViewById(R.id.newTask);
+
         newTask.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Nueva tareaa",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Add Task", Toast.LENGTH_SHORT).show();
             }
         });
-
     }
 
     @Override

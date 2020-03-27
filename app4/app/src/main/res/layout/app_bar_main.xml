@@ -55,6 +55,9 @@
                 android:id="@+id/newTask"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginLeft="320dp"
+                android:layout_marginRight="0dp"
                 android:clickable="true"
                 app:backgroundTint="@color/design_default_color_secondary_variant"
                 app:srcCompat="@android:drawable/ic_input_add" />
