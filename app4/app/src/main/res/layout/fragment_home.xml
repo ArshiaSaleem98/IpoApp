@@ -17,7 +17,7 @@
         />
     <ScrollView
         android:layout_width="332dp"
-        android:layout_height="144dp"
+        android:layout_height="159dp"
         tools:ignore="Suspicious0dp">
 
         <LinearLayout
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:hint="Write Here "
         android:textColor="@android:color/white"
-
+        android:layout_marginTop="60dp"
         android:textColorHighlight="#00A31919"
         android:textColorHint="@android:color/darker_gray"
         android:textColorLink="#00FFFFFF"
@@ -70,7 +70,7 @@
 
     <ScrollView
         android:layout_width="332dp"
-        android:layout_height="144dp"
+        android:layout_height="159dp"
         tools:ignore="Suspicious0dp">
 
         <LinearLayout
