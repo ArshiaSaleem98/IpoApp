@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:paddingLeft="8dp"
+     >
+
+
+
+
+    <TextView
+        android:id="@+id/help1"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="70dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="1.How to change color of Labels"/>
+
+
+    <TextView
+        android:id="@+id/help2"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="120dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="2.How to add new task"/>
+
+    <TextView
+        android:id="@+id/help3"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="170dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="3.How to change password?"/>
+
+    <TextView
+        android:id="@+id/help4"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="220dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="4.How to put task that have been done in 'Done'list?"/>
+
+    <TextView
+        android:id="@+id/help5"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="270dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="5.What to do in case of forgetting password?"/>
+    <TextView
+        android:id="@+id/help6"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="320dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="6.How to Edit a task?"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@android:color/black"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</RelativeLayout>

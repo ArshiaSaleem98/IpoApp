@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+
+     >
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_marginTop="150dp"
+        android:layout_width="500dp"
+        android:theme="@style/CalenderViewCustom"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/colorpicker"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/colorpicker"
+        android:layout_toRightOf="@+id/textin"
+        android:textColor="@android:color/white"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@android:color/black"
+        android:orientation="horizontal"></LinearLayout>
+</RelativeLayout>

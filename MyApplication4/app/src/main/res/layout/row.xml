@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/home"
+    android:background="@drawable/customlayout"
+    android:layout_height="wrap_content"
+    tools:ignore="InvalidId">
+
+
+    <Button
+        android:id="@+id/buttonActivity"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/next"
+        android:textColor="@android:color/white"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bin"
+        android:text=""/>
+
+
+
+    <TextView
+        android:id="@+id/textout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/remove"/>
+
+
+</RelativeLayout>
