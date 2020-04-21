@@ -44,22 +44,22 @@ public class Register extends AppCompatActivity {
                 String confirm= confirmPassword.getText().toString().trim();
                 String useremail=email.getText().toString().trim();
                 if(username.isEmpty() | pass.isEmpty() | confirm.isEmpty()  | useremail.isEmpty()){
-                    Toast.makeText(com.example.myapplication.Register.this,"All fields must be  completed ",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(com.example.myapplication.Register.this,"All fields must be completed ",Toast.LENGTH_SHORT).show();
 
                 }else {
                     if (pass.equals(confirm)) {
                         long val = db.insertData(username, pass);
                         if (val > 0) {
-                            Toast.makeText(com.example.myapplication.Register.this, "you have registered ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(com.example.myapplication.Register.this, "You have registered ", Toast.LENGTH_SHORT).show();
                             Intent myIntent1 = new Intent(com.example.myapplication.Register.this, login.class);
                             startActivity(myIntent1);
                         } else {
-                            Toast.makeText(com.example.myapplication.Register.this, "registration error", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(com.example.myapplication.Register.this, "Registration error. Try again!", Toast.LENGTH_SHORT).show();
 
                         }
 
                     } else {
-                        Toast.makeText(com.example.myapplication.Register.this, "password is not match", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(com.example.myapplication.Register.this, "Password is not match", Toast.LENGTH_SHORT).show();
 
                     }
                 }

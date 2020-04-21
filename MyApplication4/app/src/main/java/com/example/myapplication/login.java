@@ -42,7 +42,7 @@ public class login extends AppCompatActivity {
                 String u= user.getText().toString().trim();
                 String p= password.getText().toString().trim();
                 if(u.isEmpty()& p.isEmpty()){
-                    Toast.makeText(login.this,"all fields should be completed ",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(login.this,"All fields must be completed ",Toast.LENGTH_SHORT).show();
                 }
                 else {
                     Boolean res = db.checkuser(u, p);
@@ -52,10 +52,10 @@ public class login extends AppCompatActivity {
                         Intent myIntent = new Intent(login.this, MainActivity.class);
                         myIntent.putExtra("username",user.getText().toString());
                         startActivity(myIntent);
-                        Toast.makeText(login.this, "successfully login", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(login.this, "Successfully login", Toast.LENGTH_SHORT).show();
 
                     } else {
-                        Toast.makeText(login.this, "login error", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(login.this, "Username or password are incorrect", Toast.LENGTH_SHORT).show();
 
                     }
                 }
